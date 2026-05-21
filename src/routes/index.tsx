@@ -1,26 +1,54 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Header } from "@/components/site/Header";
+import { Hero } from "@/components/site/Hero";
+import { SearchBar } from "@/components/site/SearchBar";
+import { Featured } from "@/components/site/Featured";
+import { Launches } from "@/components/site/Launches";
+import { Differentials } from "@/components/site/Differentials";
+import { Financing } from "@/components/site/Financing";
+import { Recent } from "@/components/site/Recent";
+import { Testimonials } from "@/components/site/Testimonials";
+import { AdvertiseCTA } from "@/components/site/AdvertiseCTA";
+import { Contact } from "@/components/site/Contact";
+import { Footer } from "@/components/site/Footer";
+import { WhatsAppFloat } from "@/components/site/WhatsAppFloat";
 
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [
+      { title: "AL Imobiliária — Seu novo imóvel começa aqui" },
+      { name: "description", content: "Imóveis exclusivos para comprar, alugar ou investir. Atendimento personalizado, segurança jurídica e financiamento facilitado." },
+      { property: "og:title", content: "AL Imobiliária — Seu novo imóvel começa aqui" },
+      { property: "og:description", content: "Conectamos você aos melhores imóveis com segurança, confiança e excelência." },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/" },
+    ],
+    links: [
+      { rel: "canonical", href: "/" },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" },
+    ],
+  }),
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  return (
+    <main className="bg-background">
+      <Header />
+      <Hero />
+      <SearchBar />
+      <Featured />
+      <Launches />
+      <Differentials />
+      <Financing />
+      <Recent />
+      <Testimonials />
+      <AdvertiseCTA />
+      <Contact />
+      <Footer />
+      <WhatsAppFloat />
+    </main>
+  );
 }
