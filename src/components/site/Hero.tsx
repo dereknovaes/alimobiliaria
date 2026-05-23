@@ -59,22 +59,6 @@ export function Hero() {
           </div>
         </div>
 
-        <div
-          className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-px bg-white/10 border border-white/10 rounded-2xl overflow-hidden max-w-3xl backdrop-blur-sm animate-fade-in-up"
-          style={{ animationDelay: "0.8s" }}
-        >
-          {[
-            ["+2.500", "imóveis vendidos"],
-            ["+15", "anos de mercado"],
-            ["98%", "clientes satisfeitos"],
-            ["+40", "bairros atendidos"],
-          ].map(([n, l]) => (
-            <div key={l} className="bg-black/40 px-5 py-5">
-              <div className="text-2xl md:text-3xl font-display text-white">{n}</div>
-              <div className="text-xs text-white/70 mt-1 uppercase tracking-wider">{l}</div>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );
