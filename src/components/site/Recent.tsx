@@ -1,16 +1,12 @@
-import { PropertyCard, type Property } from "./PropertyCard";
-import p1 from "@/assets/property-1.jpg";
-import p2 from "@/assets/property-2.jpg";
-import p3 from "@/assets/property-3.jpg";
-
-const recent: Property[] = [
-  { id: "r1", image: p2, title: "Apartamento Garden Premium", price: "R$ 1.480.000", location: "Moema, SP", area: 142, beds: 3, baths: 3, parking: 2 },
-  { id: "r2", image: p3, title: "Cobertura com Vista Aberta", price: "R$ 3.890.000", location: "Brooklin, SP", area: 280, beds: 3, baths: 4, parking: 3 },
-  { id: "r3", image: p1, title: "Casa de Condomínio Fechado", price: "R$ 2.650.000", location: "Cotia, SP", area: 380, beds: 4, baths: 4, parking: 4 },
-  { id: "r4", image: p2, title: "Studio Design Mobiliado", price: "R$ 680.000", location: "Vila Madalena, SP", area: 48, beds: 1, baths: 1, parking: 1 },
-];
+import { PropertyCard } from "./PropertyCard";
+import { recentProperties } from "@/data/properties";
+import { usePropertySearch } from "@/hooks/usePropertySearch";
+import { Building2 } from "lucide-react";
 
 export function Recent() {
+  const { filter, active } = usePropertySearch();
+  const list = active ? filter(recentProperties) : recentProperties;
+
   return (
     <section id="recentes" className="py-28 px-6 lg:px-10 bg-secondary">
       <div className="mx-auto max-w-7xl">
@@ -20,9 +16,26 @@ export function Recent() {
             <h2 className="mt-3 text-4xl md:text-5xl lg:text-6xl font-display text-foreground">Imóveis recentes</h2>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {recent.map((p) => <PropertyCard key={p.id} p={p} />)}
-        </div>
+
+        {list.length === 0 ? (
+          <div className="border border-dashed border-border rounded-2xl py-20 px-6 text-center bg-card/60">
+            <div className="mx-auto w-14 h-14 rounded-full bg-background flex items-center justify-center mb-5">
+              <Building2 className="w-6 h-6 text-wine" />
+            </div>
+            <h3 className="text-xl font-display text-foreground mb-2">
+              {active ? "Sem novidades para esses filtros" : "Aguardando novos cadastros"}
+            </h3>
+            <p className="text-sm text-muted-foreground max-w-md mx-auto">
+              {active
+                ? "Ajuste sua busca ou fale com nossa equipe para receber opções personalizadas."
+                : "Em breve novos imóveis serão publicados aqui."}
+            </p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {list.map((p) => <PropertyCard key={p.id} p={p} />)}
+          </div>
+        )}
       </div>
     </section>
   );
