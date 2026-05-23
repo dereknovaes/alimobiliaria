@@ -5,9 +5,7 @@ import { SearchBar } from "@/components/site/SearchBar";
 import { Featured } from "@/components/site/Featured";
 import { Launches } from "@/components/site/Launches";
 import { Differentials } from "@/components/site/Differentials";
-import { Financing } from "@/components/site/Financing";
 import { Recent } from "@/components/site/Recent";
-import { Testimonials } from "@/components/site/Testimonials";
 import { AdvertiseCTA } from "@/components/site/AdvertiseCTA";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
@@ -19,7 +17,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "AL Imobiliária — Seu novo imóvel começa aqui" },
-      { name: "description", content: "Imóveis exclusivos para comprar, alugar ou investir. Atendimento personalizado, segurança jurídica e financiamento facilitado." },
+      { name: "description", content: "Imóveis exclusivos para comprar ou alugar. Atendimento personalizado e segurança em cada etapa." },
       { property: "og:title", content: "AL Imobiliária — Seu novo imóvel começa aqui" },
       { property: "og:description", content: "Conectamos você aos melhores imóveis com segurança, confiança e excelência." },
       { property: "og:type", content: "website" },
@@ -44,9 +42,7 @@ function Index() {
         <Featured />
         <Launches />
         <Differentials />
-        <Financing />
         <Recent />
-        <Testimonials />
         <AdvertiseCTA />
         <Contact />
         <Footer />
