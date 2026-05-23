@@ -7,7 +7,7 @@ const nav = [
   { label: "Comprar", href: "#destaques" },
   { label: "Alugar", href: "#recentes" },
   { label: "Anuncie", href: "#anunciar" },
-  { label: "Financiamento", href: "#financiamento" },
+  
   { label: "Contato", href: "#contato" },
 ];
 

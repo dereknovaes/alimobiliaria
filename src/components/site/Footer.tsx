@@ -19,7 +19,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li><a href="#inicio" className={linkCls}>Início</a></li>
               <li><a href="#destaques" className={linkCls}>Imóveis</a></li>
-              <li><a href="#financiamento" className={linkCls}>Financiamento</a></li>
+              
               <li><a href="#anunciar" className={linkCls}>Anuncie</a></li>
               <li><a href="#contato" className={linkCls}>Contato</a></li>
             </ul>
