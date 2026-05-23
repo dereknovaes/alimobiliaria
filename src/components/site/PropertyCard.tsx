@@ -1,17 +1,7 @@
 import { Bed, Bath, Car, Maximize, MapPin } from "lucide-react";
+import type { Property } from "@/data/properties";
 
-export interface Property {
-  id: string;
-  image: string;
-  badge?: string;
-  title: string;
-  price: string;
-  location: string;
-  area: number;
-  beds: number;
-  baths: number;
-  parking: number;
-}
+export type { Property };
 
 export function PropertyCard({ p }: { p: Property }) {
   return (
@@ -34,7 +24,7 @@ export function PropertyCard({ p }: { p: Property }) {
       </div>
       <div className="p-6">
         <div className="flex items-center gap-1.5 text-xs text-muted-foreground mb-2">
-          <MapPin className="w-3.5 h-3.5" /> {p.location}
+          <MapPin className="w-3.5 h-3.5" /> {p.neighborhood}, {p.city}
         </div>
         <h3 className="text-xl font-display text-foreground leading-tight mb-3">{p.title}</h3>
         <div className="text-2xl font-display text-wine mb-5">{p.price}</div>

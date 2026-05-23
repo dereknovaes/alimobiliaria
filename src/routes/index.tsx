@@ -12,6 +12,7 @@ import { AdvertiseCTA } from "@/components/site/AdvertiseCTA";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 import { WhatsAppFloat } from "@/components/site/WhatsAppFloat";
+import { PropertySearchProvider } from "@/hooks/usePropertySearch";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -35,20 +36,22 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <main className="bg-background">
-      <Header />
-      <Hero />
-      <SearchBar />
-      <Featured />
-      <Launches />
-      <Differentials />
-      <Financing />
-      <Recent />
-      <Testimonials />
-      <AdvertiseCTA />
-      <Contact />
-      <Footer />
-      <WhatsAppFloat />
-    </main>
+    <PropertySearchProvider>
+      <main className="bg-background">
+        <Header />
+        <Hero />
+        <SearchBar />
+        <Featured />
+        <Launches />
+        <Differentials />
+        <Financing />
+        <Recent />
+        <Testimonials />
+        <AdvertiseCTA />
+        <Contact />
+        <Footer />
+        <WhatsAppFloat />
+      </main>
+    </PropertySearchProvider>
   );
 }
