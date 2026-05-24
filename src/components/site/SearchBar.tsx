@@ -32,11 +32,12 @@ export function SearchBar() {
               <select
                 className={ctrl}
                 value={filters.purpose}
-                onChange={(e) => setFilter("purpose", e.target.value as "comprar" | "alugar" | "")}
+                onChange={(e) => setFilter("purpose", e.target.value as "comprar" | "alugar" | "minha-casa-minha-vida" | "")}
               >
                 <option value="">Todas</option>
                 <option value="comprar">Comprar</option>
                 <option value="alugar">Alugar</option>
+                <option value="minha-casa-minha-vida">Minha Casa Minha Vida</option>
               </select>
             </Field>
             <Field label="Tipo">
