@@ -26,7 +26,7 @@
 // }
 // =============================================================
 
-export type PropertyPurpose = "comprar" | "alugar";
+export type PropertyPurpose = "comprar" | "alugar" | "minha-casa-minha-vida";
 export type PropertyType =
   | "Apartamento"
   | "Casa"
