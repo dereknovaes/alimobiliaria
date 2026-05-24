@@ -6,6 +6,7 @@ const nav = [
   { label: "Imóveis", href: "#destaques" },
   { label: "Comprar", href: "#destaques" },
   { label: "Alugar", href: "#recentes" },
+  { label: "Minha Casa Minha Vida", href: "#minha-casa-minha-vida" },
   { label: "Anuncie", href: "#anunciar" },
   
   { label: "Contato", href: "#contato" },
