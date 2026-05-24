@@ -4,6 +4,7 @@ import { Hero } from "@/components/site/Hero";
 import { SearchBar } from "@/components/site/SearchBar";
 import { Featured } from "@/components/site/Featured";
 import { Launches } from "@/components/site/Launches";
+import { MinhaCasaMinhaVida } from "@/components/site/MinhaCasaMinhaVida";
 import { Differentials } from "@/components/site/Differentials";
 import { Recent } from "@/components/site/Recent";
 import { AdvertiseCTA } from "@/components/site/AdvertiseCTA";
@@ -41,6 +42,7 @@ function Index() {
         <SearchBar />
         <Featured />
         <Launches />
+        <MinhaCasaMinhaVida />
         <Differentials />
         <Recent />
         <AdvertiseCTA />
