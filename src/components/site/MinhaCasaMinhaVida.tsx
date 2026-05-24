@@ -15,7 +15,7 @@ export function MinhaCasaMinhaVida() {
   return (
     <section id="minha-casa-minha-vida" className="py-28 px-6 lg:px-10 bg-background">
       <div className="mx-auto max-w-7xl">
-        <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-14">
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8 mb-14">
           <div className="max-w-2xl">
             <span className="text-xs tracking-[0.3em] uppercase text-wine font-medium">— Programa habitacional</span>
             <h2 className="mt-3 text-4xl md:text-5xl lg:text-6xl font-display text-foreground leading-[1.05]">
