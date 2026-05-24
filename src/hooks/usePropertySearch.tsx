@@ -3,6 +3,7 @@ import type { Property, PropertyPurpose, PropertyType } from "@/data/properties"
 
 export interface SearchFilters {
   purpose: PropertyPurpose | "";
+  // "comprar" | "alugar" | "minha-casa-minha-vida" | ""
   type: PropertyType | "";
   city: string;
   neighborhood: string;
