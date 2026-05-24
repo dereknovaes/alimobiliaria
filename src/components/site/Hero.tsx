@@ -20,7 +20,7 @@ export function Hero() {
             className="inline-block text-xs tracking-[0.3em] uppercase text-white/80 mb-6 animate-fade-in"
             style={{ animationDelay: "0.1s" }}
           >
-            — AL Imobiliária · desde 2008
+            — AL Imobiliária
           </span>
           <h1
             className="text-5xl md:text-7xl lg:text-8xl font-display text-white leading-[1.02] mb-6 animate-fade-in-up"
