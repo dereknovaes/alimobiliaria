@@ -1,6 +1,7 @@
 import { PropertyCard } from "./PropertyCard";
 import { allProperties } from "@/data/properties";
 import { Home, CheckCircle2, Wallet, KeyRound } from "lucide-react";
+import mcmvLogo from "@/assets/minha-casa-minha-vida.png";
 
 export function MinhaCasaMinhaVida() {
   const list = allProperties.filter((p) => p.purpose === "minha-casa-minha-vida");
@@ -16,9 +17,12 @@ export function MinhaCasaMinhaVida() {
       <div className="mx-auto max-w-7xl">
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-14">
           <div className="flex items-start gap-6 max-w-2xl">
-            <div className="shrink-0 w-16 h-16 lg:w-20 lg:h-20 rounded-2xl bg-wine text-wine-foreground flex items-center justify-center shadow-[var(--shadow-elegant)]">
-              <Home className="w-8 h-8 lg:w-10 lg:h-10" strokeWidth={1.5} />
-            </div>
+            <img
+              src={mcmvLogo}
+              alt="Logotipo do programa Minha Casa Minha Vida"
+              loading="lazy"
+              className="shrink-0 w-24 h-24 lg:w-32 lg:h-32 object-contain drop-shadow-md"
+            />
             <div>
               <span className="text-xs tracking-[0.3em] uppercase text-wine font-medium">— Programa habitacional</span>
               <h2 className="mt-3 text-4xl md:text-5xl lg:text-6xl font-display text-foreground leading-[1.05]">
