@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Phone, Search, Menu, X } from "lucide-react";
-import logo from "@/assets/logo.jpg";
+import logo from "@/assets/logo.png";
 
 const nav = [
   { label: "Início", href: "#inicio" },
