@@ -39,8 +39,8 @@ export function Footer() {
           <div>
             <h4 className="text-sm uppercase tracking-[0.2em] mb-5">Contato</h4>
             <ul className="space-y-3 text-sm text-background/65">
-              <li>Av. Paulista, 1000 — 12º</li>
-              <li>São Paulo / SP</li>
+              <li>R. Prof. Guedes de Miranda, 161A</li>
+              <li>Farol, Maceió / AL · 57055-220</li>
               <li>(11) 3000-1000</li>
               <li>contato@alimobiliaria.com.br</li>
             </ul>
