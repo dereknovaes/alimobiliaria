@@ -1,4 +1,5 @@
 import { Instagram, Facebook, Linkedin, MessageCircle } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const linkCls = "text-background/65 hover:text-background transition-colors";
 
@@ -8,7 +9,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 pb-14 border-b border-background/10">
           <div>
-            <div className="text-2xl font-display mb-4">AL <span className="text-wine">Imobiliária</span></div>
+            <img src={logo} alt="AL Imobiliária" className="h-14 w-auto mb-4 brightness-0 invert" />
             <p className="text-sm text-background/65 leading-relaxed">
               Conectando pessoas aos imóveis dos seus sonhos com excelência, transparência e sofisticação desde 2008.
             </p>
@@ -39,8 +40,8 @@ export function Footer() {
           <div>
             <h4 className="text-sm uppercase tracking-[0.2em] mb-5">Contato</h4>
             <ul className="space-y-3 text-sm text-background/65">
-              <li>Av. Paulista, 1000 — 12º</li>
-              <li>São Paulo / SP</li>
+              <li>R. Prof. Guedes de Miranda, 161A</li>
+              <li>Farol, Maceió / AL · 57055-220</li>
               <li>(11) 3000-1000</li>
               <li>contato@alimobiliaria.com.br</li>
             </ul>

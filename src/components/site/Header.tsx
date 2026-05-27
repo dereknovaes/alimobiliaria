@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Phone, Search, Menu, X } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const nav = [
   { label: "Início", href: "#inicio" },
@@ -33,13 +34,11 @@ export function Header() {
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-10 h-20 flex items-center justify-between gap-6">
         <a href="#inicio" className="flex items-center gap-2 group">
-          <span
-            className={`text-2xl font-display tracking-tight transition-colors ${
-              scrolled ? "text-foreground" : "text-white"
-            }`}
-          >
-            AL <span className="text-wine">Imobiliária</span>
-          </span>
+          <img
+            src={logo}
+            alt="AL Imobiliária"
+            className={`h-12 lg:h-14 w-auto transition-all ${scrolled ? "" : "brightness-0 invert"}`}
+          />
         </a>
 
         <nav className="hidden lg:flex items-center gap-8">

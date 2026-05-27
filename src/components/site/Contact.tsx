@@ -19,13 +19,13 @@ export function Contact() {
             <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-border shadow-[var(--shadow-card)]">
               <iframe
                 title="Mapa"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=-46.6720%2C-23.5740%2C-46.6420%2C-23.5540&layer=mapnik"
+                src="https://www.google.com/maps?q=R.%20Prof.%20Guedes%20de%20Miranda%2C%20161A%20-%20Farol%2C%20Macei%C3%B3%20-%20AL%2C%2057055-220&output=embed"
                 className="w-full h-full"
                 loading="lazy"
               />
             </div>
             <ul className="space-y-4 text-sm">
-              <li className="flex gap-3"><MapPin className="w-4 h-4 text-wine mt-0.5 shrink-0" /><span>Av. Paulista, 1000 — 12º andar · Bela Vista, São Paulo / SP</span></li>
+              <li className="flex gap-3"><MapPin className="w-4 h-4 text-wine mt-0.5 shrink-0" /><span>R. Prof. Guedes de Miranda, 161A — Farol, Maceió / AL · 57055-220</span></li>
               <li className="flex gap-3"><Phone className="w-4 h-4 text-wine mt-0.5 shrink-0" />(11) 3000-1000</li>
               <li className="flex gap-3"><MessageCircle className="w-4 h-4 text-wine mt-0.5 shrink-0" />WhatsApp: (11) 90000-0000</li>
               <li className="flex gap-3"><Mail className="w-4 h-4 text-wine mt-0.5 shrink-0" />contato@alimobiliaria.com.br</li>
