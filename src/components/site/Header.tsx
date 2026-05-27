@@ -37,7 +37,7 @@ export function Header() {
           <img
             src={logo}
             alt="AL Imobiliária"
-            className={`h-12 lg:h-14 w-auto transition-all ${scrolled ? "" : "brightness-0 invert"}`}
+            className={`h-12 lg:h-14 w-auto transition-all ${scrolled ? "" : "[filter:invert(1)_brightness(1.05)] drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]"}`}
           />
         </a>
 
