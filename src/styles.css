@@ -41,7 +41,7 @@
   --shadow-wine: 0 18px 40px -16px color-mix(in oklab, var(--wine) 45%, transparent);
 
   --gradient-overlay: linear-gradient(to bottom, color-mix(in oklab, #000 25%, transparent) 0%, color-mix(in oklab, #000 70%, transparent) 100%);
-  --gradient-wine: linear-gradient(135deg, oklch(0.32 0.12 18), oklch(0.22 0.09 18));
+  --gradient-wine: linear-gradient(135deg, oklch(0.68 0.18 47), oklch(0.55 0.16 40));
 
   --animate-fade-in-up: fade-in-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
   --animate-fade-in: fade-in 0.6s ease-out both;
