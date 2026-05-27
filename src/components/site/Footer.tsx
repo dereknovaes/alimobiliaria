@@ -9,7 +9,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 pb-14 border-b border-background/10">
           <div>
-            <div className="text-2xl font-display mb-4">AL <span className="text-wine">Imobiliária</span></div>
+            <img src={logo} alt="AL Imobiliária" className="h-14 w-auto mb-4 brightness-0 invert" />
             <p className="text-sm text-background/65 leading-relaxed">
               Conectando pessoas aos imóveis dos seus sonhos com excelência, transparência e sofisticação desde 2008.
             </p>
