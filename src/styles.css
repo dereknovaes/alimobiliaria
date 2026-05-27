@@ -108,11 +108,11 @@
   --muted-foreground: oklch(0.7 0.01 270);
   --accent: oklch(0.24 0.005 270);
   --accent-foreground: oklch(0.98 0 0);
-  --wine: oklch(0.42 0.14 18);
+  --wine: oklch(0.68 0.19 47);
   --wine-foreground: oklch(0.98 0 0);
   --border: oklch(1 0 0 / 12%);
   --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.42 0.14 18);
+  --ring: oklch(0.68 0.19 47);
 }
 
 @layer base {
