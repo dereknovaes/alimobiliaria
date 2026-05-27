@@ -1,5 +1,5 @@
 import { Instagram, Facebook, Linkedin, MessageCircle } from "lucide-react";
-import logo from "@/assets/logo.jpg";
+import logo from "@/assets/logo.png";
 
 const linkCls = "text-background/65 hover:text-background transition-colors";
 
