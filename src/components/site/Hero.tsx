@@ -17,10 +17,11 @@ export function Hero() {
       <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-10 min-h-screen flex flex-col justify-center pt-24 pb-16">
         <div className="max-w-3xl">
           <span
-            className="inline-block text-xs tracking-[0.3em] uppercase text-white/80 mb-6 animate-fade-in"
+            className="inline-flex items-center gap-3 text-xs tracking-[0.3em] uppercase text-white/80 mb-6 animate-fade-in"
             style={{ animationDelay: "0.1s" }}
           >
             — AL Imobiliária
+            <span className="inline-block border border-white/40 rounded-full px-2.5 py-1 text-[10px] text-white">CRECI 9157</span>
           </span>
           <h1
             className="text-5xl md:text-7xl lg:text-8xl font-display text-white leading-[1.02] mb-6 animate-fade-in-up"

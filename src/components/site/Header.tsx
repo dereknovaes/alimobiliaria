@@ -39,13 +39,6 @@ export function Header() {
             alt="AL Imobiliária"
             className={`h-12 lg:h-14 w-auto transition-all ${scrolled ? "" : "[filter:drop-shadow(0_0_2px_rgba(255,255,255,0.9))_drop-shadow(0_0_8px_rgba(255,255,255,0.6))]"}`}
           />
-          <span
-            className={`hidden sm:inline-block text-[10px] tracking-[0.2em] uppercase border rounded-full px-2.5 py-1 whitespace-nowrap ${
-              scrolled ? "border-border text-foreground/70" : "border-white/40 text-white"
-            }`}
-          >
-            CRECI 9157
-          </span>
         </a>
 
         <nav className="hidden lg:flex items-center gap-5 xl:gap-7 flex-1 justify-center">
