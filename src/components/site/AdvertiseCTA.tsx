@@ -16,7 +16,12 @@ export function AdvertiseCTA() {
             <p className="text-background/75 text-lg leading-relaxed mb-8">
               Anuncie conosco e alcance os melhores compradores. Avaliação gratuita, divulgação premium e negociação especializada.
             </p>
-            <a href="#contato" className="group inline-flex items-center gap-3 rounded-full bg-wine text-wine-foreground px-8 py-4 font-medium hover:opacity-95 transition shadow-[var(--shadow-wine)]">
+            <a
+              href={`https://wa.me/5582993296248?text=${encodeURIComponent("Olá! Gostaria de anunciar meu imóvel com a AL Imobiliária.")}`}
+              target="_blank"
+              rel="noreferrer"
+              className="group inline-flex items-center gap-3 rounded-full bg-wine text-wine-foreground px-8 py-4 font-medium hover:opacity-95 transition shadow-[var(--shadow-wine)]"
+            >
               Anunciar imóvel
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </a>

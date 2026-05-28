@@ -33,13 +33,25 @@ export function Contact() {
             </ul>
           </div>
 
-          <form className="lg:col-span-3 bg-secondary rounded-2xl p-8 lg:p-10 space-y-6" onSubmit={(e) => e.preventDefault()}>
+          <form
+            className="lg:col-span-3 bg-secondary rounded-2xl p-8 lg:p-10 space-y-6"
+            onSubmit={(e) => {
+              e.preventDefault();
+              const f = e.currentTarget as HTMLFormElement;
+              const nome = (f.elements.namedItem("nome") as HTMLInputElement)?.value || "";
+              const telefone = (f.elements.namedItem("telefone") as HTMLInputElement)?.value || "";
+              const email = (f.elements.namedItem("email") as HTMLInputElement)?.value || "";
+              const msg = (f.elements.namedItem("mensagem") as HTMLTextAreaElement)?.value || "";
+              const texto = `Olá! Meu nome é ${nome}.\nTelefone: ${telefone}\nE-mail: ${email}\n\n${msg}`;
+              window.open(`https://wa.me/5582993296248?text=${encodeURIComponent(texto)}`, "_blank");
+            }}
+          >
             <div className="grid md:grid-cols-2 gap-6">
-              <input className={inputCls} placeholder="Nome completo" />
-              <input className={inputCls} placeholder="Telefone" type="tel" />
+              <input name="nome" className={inputCls} placeholder="Nome completo" />
+              <input name="telefone" className={inputCls} placeholder="Telefone" type="tel" />
             </div>
-            <input className={inputCls} placeholder="E-mail" type="email" />
-            <textarea className={inputCls + " resize-none"} rows={5} placeholder="Conte um pouco sobre o que você procura..." />
+            <input name="email" className={inputCls} placeholder="E-mail" type="email" />
+            <textarea name="mensagem" className={inputCls + " resize-none"} rows={5} placeholder="Conte um pouco sobre o que você procura..." />
             <button className="inline-flex items-center justify-center gap-2 rounded-full bg-wine text-wine-foreground px-8 py-4 font-medium hover:opacity-95 transition shadow-[var(--shadow-wine)]">
               Enviar mensagem
             </button>
