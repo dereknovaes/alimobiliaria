@@ -49,7 +49,7 @@ export function Hero() {
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a
-              href="https://wa.me/5511900000000"
+              href="https://wa.me/5582993296248?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-full border border-white/40 backdrop-blur bg-white/5 text-white px-8 py-4 font-medium hover:bg-white/15 transition-all"

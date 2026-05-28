@@ -26,8 +26,8 @@ export function Contact() {
             </div>
             <ul className="space-y-4 text-sm">
               <li className="flex gap-3"><MapPin className="w-4 h-4 text-wine mt-0.5 shrink-0" /><span>R. Prof. Guedes de Miranda, 161A — Farol, Maceió / AL · 57055-220</span></li>
-              <li className="flex gap-3"><Phone className="w-4 h-4 text-wine mt-0.5 shrink-0" />(11) 3000-1000</li>
-              <li className="flex gap-3"><MessageCircle className="w-4 h-4 text-wine mt-0.5 shrink-0" />WhatsApp: (11) 90000-0000</li>
+              <li className="flex gap-3"><Phone className="w-4 h-4 text-wine mt-0.5 shrink-0" />(82) 99329-6248</li>
+              <li className="flex gap-3"><MessageCircle className="w-4 h-4 text-wine mt-0.5 shrink-0" />WhatsApp: (82) 99329-6248</li>
               <li className="flex gap-3"><Mail className="w-4 h-4 text-wine mt-0.5 shrink-0" />contato@alimobiliaria.com.br</li>
               <li className="flex gap-3"><Clock className="w-4 h-4 text-wine mt-0.5 shrink-0" />Seg a Sex · 9h às 19h · Sáb 9h às 14h</li>
             </ul>

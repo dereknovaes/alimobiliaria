@@ -70,15 +70,15 @@ export function Header() {
             />
           </div>
           <a
-            href="tel:+551130001000"
+            href="tel:+5582993296248"
             className={`inline-flex items-center gap-2 text-sm font-medium ${
               scrolled ? "text-foreground" : "text-white"
             }`}
           >
-            <Phone className="w-4 h-4" /> (11) 3000-1000
+            <Phone className="w-4 h-4" /> (82) 99329-6248
           </a>
           <a
-            href="https://wa.me/5511900000000"
+            href="https://wa.me/5582993296248?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-wine text-wine-foreground px-4 py-2 text-sm font-medium hover:opacity-90 transition shadow-[var(--shadow-wine)]"
@@ -110,7 +110,7 @@ export function Header() {
               </a>
             ))}
             <a
-              href="https://wa.me/5511900000000"
+              href="https://wa.me/5582993296248?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
               className="mt-2 rounded-full bg-wine text-wine-foreground px-4 py-2 text-sm font-medium text-center"
             >
               WhatsApp

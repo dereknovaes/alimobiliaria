@@ -42,7 +42,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm text-background/65">
               <li>R. Prof. Guedes de Miranda, 161A</li>
               <li>Farol, Maceió / AL · 57055-220</li>
-              <li>(11) 3000-1000</li>
+              <li>(82) 99329-6248</li>
               <li>contato@alimobiliaria.com.br</li>
             </ul>
             <div className="flex gap-3 mt-6">
@@ -57,7 +57,7 @@ export function Footer() {
 
         <div className="pt-8 flex flex-col md:flex-row justify-between gap-3 text-xs text-background/50">
           <div>© 2025 AL Imobiliária. Todos os direitos reservados.</div>
-          <div>CRECI-SP 00000-J</div>
+          <div>CRECI 9157</div>
         </div>
       </div>
     </footer>
