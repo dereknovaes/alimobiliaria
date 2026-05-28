@@ -143,7 +143,7 @@ export function PropertyCard({ p }: { p: Property }) {
               )}
 
               <a
-                href="https://wa.me/5582900000000"
+                href={`https://wa.me/5582993296248?text=${encodeURIComponent(`Olá! Gostaria de mais informações sobre o imóvel "${p.title}" (${p.neighborhood}, ${p.city}) — ${p.price}.`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 w-full inline-flex items-center justify-center rounded-full bg-wine text-wine-foreground px-6 py-3 font-medium hover:opacity-95 transition shadow-[var(--shadow-wine)]"
