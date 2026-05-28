@@ -33,20 +33,27 @@ export function Header() {
       }`}
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-10 h-20 flex items-center justify-between gap-6">
-        <a href="#inicio" className="flex items-center gap-2 group">
+        <a href="#inicio" className="flex items-center gap-3 group shrink-0">
           <img
             src={logo}
             alt="AL Imobiliária"
             className={`h-12 lg:h-14 w-auto transition-all ${scrolled ? "" : "[filter:drop-shadow(0_0_2px_rgba(255,255,255,0.9))_drop-shadow(0_0_8px_rgba(255,255,255,0.6))]"}`}
           />
+          <span
+            className={`hidden sm:inline-block text-[10px] tracking-[0.2em] uppercase border rounded-full px-2.5 py-1 whitespace-nowrap ${
+              scrolled ? "border-border text-foreground/70" : "border-white/40 text-white"
+            }`}
+          >
+            CRECI 9157
+          </span>
         </a>
 
-        <nav className="hidden lg:flex items-center gap-8">
+        <nav className="hidden lg:flex items-center gap-5 xl:gap-7 flex-1 justify-center">
           {nav.map((item) => (
             <a
               key={item.label}
               href={item.href}
-              className={`text-sm font-medium tracking-wide relative after:absolute after:left-0 after:-bottom-1 after:h-px after:w-0 after:bg-wine after:transition-all hover:after:w-full ${
+              className={`text-sm font-medium tracking-wide whitespace-nowrap relative after:absolute after:left-0 after:-bottom-1 after:h-px after:w-0 after:bg-wine after:transition-all hover:after:w-full ${
                 scrolled ? "text-foreground/80 hover:text-foreground" : "text-white/90 hover:text-white"
               }`}
             >
@@ -55,20 +62,7 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="hidden md:flex items-center gap-3">
-          <div
-            className={`hidden xl:flex items-center gap-2 rounded-full border px-3 py-1.5 transition ${
-              scrolled ? "border-border bg-background" : "border-white/30 bg-white/10 backdrop-blur"
-            }`}
-          >
-            <Search className={`w-4 h-4 ${scrolled ? "text-muted-foreground" : "text-white/80"}`} />
-            <input
-              placeholder="Código do imóvel"
-              className={`bg-transparent text-xs outline-none w-32 ${
-                scrolled ? "text-foreground placeholder:text-muted-foreground" : "text-white placeholder:text-white/70"
-              }`}
-            />
-          </div>
+        <div className="hidden md:flex items-center gap-3 shrink-0">
           <a
             href="tel:+5582993296248"
             className={`inline-flex items-center gap-2 text-sm font-medium ${
