@@ -4,7 +4,7 @@ const items = [
   { icon: HeartHandshake, title: "Atendimento personalizado", desc: "Consultores dedicados que entendem o seu momento e encontram o imóvel ideal para você." },
   { icon: Landmark, title: "Financiamento facilitado", desc: "Parceria com os principais bancos e assessoria completa em todo o processo de crédito." },
   { icon: ShieldCheck, title: "Segurança jurídica", desc: "Equipe jurídica própria garantindo análise documental e transações 100% seguras." },
-  { icon: Award, title: "Especialistas no mercado", desc: "Mais de 15 anos conectando pessoas aos melhores imóveis com excelência e transparência." },
+  { icon: Award, title: "Especialistas no mercado", desc: "Conectando pessoas aos melhores imóveis com excelência e transparência." },
 ];
 
 export function Differentials() {
