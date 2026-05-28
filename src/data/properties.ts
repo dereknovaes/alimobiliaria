@@ -50,6 +50,17 @@ import aldebaran2Quarto3 from "@/assets/properties/aldebaran2-15-quarto3.jpg";
 import aldebaran2Quarto4 from "@/assets/properties/aldebaran2-16-quarto4.jpg";
 import aldebaran2SalaGrande from "@/assets/properties/aldebaran2-17-sala-grande.jpg";
 
+import aldebaran3Fachada from "@/assets/properties/aldebaran3-01-fachada.jpg";
+import aldebaran3Piscina from "@/assets/properties/aldebaran3-02-piscina.jpg";
+import aldebaran3PiscinaAerea from "@/assets/properties/aldebaran3-03-piscina-aerea.jpg";
+import aldebaran3Aerea from "@/assets/properties/aldebaran3-04-aerea.jpg";
+import aldebaran3Fundos from "@/assets/properties/aldebaran3-05-fundos.jpg";
+import aldebaran3PiscinaVista from "@/assets/properties/aldebaran3-06-piscina-vista.jpg";
+import aldebaran3Sala from "@/assets/properties/aldebaran3-07-sala.jpg";
+import aldebaran3SalaJantar from "@/assets/properties/aldebaran3-08-sala-jantar.jpg";
+import aldebaran3Cozinha from "@/assets/properties/aldebaran3-09-cozinha.jpg";
+import aldebaran3Copa from "@/assets/properties/aldebaran3-10-copa.jpg";
+
 export type PropertyPurpose = "comprar" | "alugar" | "minha-casa-minha-vida";
 export type PropertyType =
   | "Apartamento"
@@ -183,8 +194,55 @@ const aldebaranCasaModerna: Property = {
   ],
 };
 
+const aldebaranCasaLuxo: Property = {
+  id: "aldebaran-casa-luxo-solar",
+  image: aldebaran3Fachada,
+  gallery: [
+    aldebaran3Fachada,
+    aldebaran3Aerea,
+    aldebaran3Fundos,
+    aldebaran3PiscinaVista,
+    aldebaran3Piscina,
+    aldebaran3PiscinaAerea,
+    aldebaran3Sala,
+    aldebaran3SalaJantar,
+    aldebaran3Cozinha,
+    aldebaran3Copa,
+  ],
+  badge: "Energia Solar",
+  title: "Casa de luxo no Condomínio Aldebaran",
+  price: "R$ 2.200.000",
+  priceValue: 2_200_000,
+  purpose: "comprar",
+  type: "Casa",
+  city: "Maceió",
+  neighborhood: "Aldebaran",
+  area: 430,
+  beds: 4,
+  baths: 4,
+  parking: 6,
+  description:
+    "Excelente casa no Condomínio Aldebaran com 430 m² de área construída e terreno de 930 m². Projeto sofisticado, energia solar, ampla área de lazer com piscina e 6 vagas de garagem. Aceita apartamento na negociação.",
+  features: [
+    "430 m² de área construída",
+    "Terreno de 930 m²",
+    "4 quartos (3 suítes, master com closet)",
+    "Sala em L para dois ambientes",
+    "Gabinete",
+    "Cozinha",
+    "Dispensa",
+    "Dependência de empregada",
+    "Área de serviço",
+    "Piscina",
+    "Energia solar",
+    "6 vagas de garagem",
+    "Aceita apartamento na negociação",
+  ],
+};
+
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna];
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo];
+
 
 // === Imóveis recentes / Novidades ===
 export const recentProperties: Property[] = [];
