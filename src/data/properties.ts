@@ -42,6 +42,13 @@ import aldebaran2Varanda from "@/assets/properties/aldebaran2-07-varanda.jpg";
 import aldebaran2Banheiro from "@/assets/properties/aldebaran2-08-banheiro.jpg";
 import aldebaran2Churrasqueira from "@/assets/properties/aldebaran2-09-churrasqueira.jpg";
 import aldebaran2Lateral from "@/assets/properties/aldebaran2-10-lateral.jpg";
+import aldebaran2Quarto from "@/assets/properties/aldebaran2-11-quarto.jpg";
+import aldebaran2SalaAmpla from "@/assets/properties/aldebaran2-12-sala-ampla.jpg";
+import aldebaran2Banheiro2 from "@/assets/properties/aldebaran2-13-banheiro2.jpg";
+import aldebaran2Quarto2 from "@/assets/properties/aldebaran2-14-quarto2.jpg";
+import aldebaran2Quarto3 from "@/assets/properties/aldebaran2-15-quarto3.jpg";
+import aldebaran2Quarto4 from "@/assets/properties/aldebaran2-16-quarto4.jpg";
+import aldebaran2SalaGrande from "@/assets/properties/aldebaran2-17-sala-grande.jpg";
 
 export type PropertyPurpose = "comprar" | "alugar" | "minha-casa-minha-vida";
 export type PropertyType =
