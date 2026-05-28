@@ -59,11 +59,10 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 flex flex-col md:flex-row justify-between gap-3 text-xs text-background/50">
-          <div>© 2025 AL Imobiliária. Todos os direitos reservados.</div>
-          <div>CRECI 9157</div>
+        <div className="pt-8 text-xs text-background/50">
+          © AL Imobiliária. Todos os direitos reservados.
         </div>
       </div>
-          <div>© 2025 AL Imobiliária. Todos os direitos reservados.</div>
+    </footer>
   );
 }
