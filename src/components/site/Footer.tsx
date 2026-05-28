@@ -48,6 +48,7 @@ export function Footer() {
               <li>(82) 99329-6248</li>
               <li>contato@alimobiliaria.com.br</li>
               <li>CRECI 9157</li>
+            </ul>
             <div className="flex gap-3 mt-6">
               {[Instagram, Facebook, MessageCircle, Linkedin].map((Icon, i) => (
                 <a key={i} href="#" className="w-9 h-9 rounded-full border border-background/20 flex items-center justify-center hover:bg-wine hover:border-wine transition-all">
@@ -63,6 +64,6 @@ export function Footer() {
           <div>CRECI 9157</div>
         </div>
       </div>
-    </footer>
+          <div>© 2025 AL Imobiliária. Todos os direitos reservados.</div>
   );
 }
