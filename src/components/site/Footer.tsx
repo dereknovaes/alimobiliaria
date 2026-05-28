@@ -9,9 +9,12 @@ export function Footer() {
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 pb-14 border-b border-background/10">
           <div>
-            <img src={logo} alt="AL Imobiliária" className="h-14 w-auto mb-4 brightness-0 invert" />
+            <div className="flex items-center gap-3 mb-4">
+              <img src={logo} alt="AL Imobiliária" className="h-14 w-auto brightness-0 invert" />
+              <span className="text-xs tracking-[0.2em] uppercase border border-background/30 rounded-full px-3 py-1">CRECI 9157</span>
+            </div>
             <p className="text-sm text-background/65 leading-relaxed">
-              Conectando pessoas aos imóveis dos seus sonhos com excelência, transparência e sofisticação desde 2008.
+              Conectando pessoas aos imóveis dos seus sonhos com excelência, transparência e sofisticação.
             </p>
           </div>
 
@@ -44,7 +47,7 @@ export function Footer() {
               <li>Farol, Maceió / AL · 57055-220</li>
               <li>(82) 99329-6248</li>
               <li>contato@alimobiliaria.com.br</li>
-            </ul>
+              <li>CRECI 9157</li>
             <div className="flex gap-3 mt-6">
               {[Instagram, Facebook, MessageCircle, Linkedin].map((Icon, i) => (
                 <a key={i} href="#" className="w-9 h-9 rounded-full border border-background/20 flex items-center justify-center hover:bg-wine hover:border-wine transition-all">
