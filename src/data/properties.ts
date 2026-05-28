@@ -32,6 +32,17 @@ import aldebaranSalaAmpla from "@/assets/properties/aldebaran-16-sala-ampla.jpg"
 import aldebaranPiscinaVista from "@/assets/properties/aldebaran-17-piscina-vista.jpg";
 import aldebaranQuarto3 from "@/assets/properties/aldebaran-18-quarto3.jpg";
 
+import aldebaran2Fachada from "@/assets/properties/aldebaran2-01-fachada.jpg";
+import aldebaran2Piscina from "@/assets/properties/aldebaran2-02-piscina.jpg";
+import aldebaran2Sala from "@/assets/properties/aldebaran2-03-sala.jpg";
+import aldebaran2SalaTv from "@/assets/properties/aldebaran2-04-sala-tv.jpg";
+import aldebaran2Cozinha from "@/assets/properties/aldebaran2-05-cozinha.jpg";
+import aldebaran2Suite from "@/assets/properties/aldebaran2-06-suite.jpg";
+import aldebaran2Varanda from "@/assets/properties/aldebaran2-07-varanda.jpg";
+import aldebaran2Banheiro from "@/assets/properties/aldebaran2-08-banheiro.jpg";
+import aldebaran2Churrasqueira from "@/assets/properties/aldebaran2-09-churrasqueira.jpg";
+import aldebaran2Lateral from "@/assets/properties/aldebaran2-10-lateral.jpg";
+
 export type PropertyPurpose = "comprar" | "alugar" | "minha-casa-minha-vida";
 export type PropertyType =
   | "Apartamento"
@@ -117,8 +128,49 @@ const aldebaranCasa: Property = {
   ],
 };
 
+const aldebaranCasaModerna: Property = {
+  id: "aldebaran-casa-moderna",
+  image: aldebaran2Fachada,
+  gallery: [
+    aldebaran2Fachada,
+    aldebaran2Piscina,
+    aldebaran2Varanda,
+    aldebaran2Sala,
+    aldebaran2SalaTv,
+    aldebaran2Cozinha,
+    aldebaran2Suite,
+    aldebaran2Banheiro,
+    aldebaran2Churrasqueira,
+    aldebaran2Lateral,
+  ],
+  badge: "Projeto Moderno",
+  title: "Casa moderna no Condomínio Aldebaran",
+  price: "R$ 1.980.000",
+  priceValue: 1_980_000,
+  purpose: "comprar",
+  type: "Casa",
+  city: "Maceió",
+  neighborhood: "Aldebaran",
+  area: 100,
+  beds: 4,
+  baths: 4,
+  parking: 2,
+  description:
+    "Excelente casa no Condomínio Aldebaran, com localização privilegiada e projeto moderno. Suíte master com closet, varanda solta para as três suítes, sala em dois ambientes e cozinha ampla com planejados.",
+  features: [
+    "4 quartos (3 suítes + 1 reversível)",
+    "Suíte master com closet",
+    "Sala em dois ambientes",
+    "Cozinha ampla com planejados",
+    "Varanda solta para as três suítes",
+    "Piscina",
+    "Churrasqueira",
+    "Localização privilegiada e projeto moderno",
+  ],
+};
+
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa];
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna];
 
 // === Imóveis recentes / Novidades ===
 export const recentProperties: Property[] = [];
