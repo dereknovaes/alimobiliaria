@@ -23,6 +23,14 @@ import aldebaranSuiteBanheiro from "@/assets/properties/aldebaran-07-suite-banhe
 import aldebaranBanheiro from "@/assets/properties/aldebaran-08-banheiro.jpg";
 import aldebaranBanheiro2 from "@/assets/properties/aldebaran-09-banheiro2.jpg";
 import aldebaranLavabo from "@/assets/properties/aldebaran-10-lavabo.jpg";
+import aldebaranSalaTv from "@/assets/properties/aldebaran-11-sala-tv.jpg";
+import aldebaranSuite from "@/assets/properties/aldebaran-12-suite.jpg";
+import aldebaranLateral from "@/assets/properties/aldebaran-13-lateral.jpg";
+import aldebaranSalaJantar from "@/assets/properties/aldebaran-14-sala-jantar.jpg";
+import aldebaranQuarto2 from "@/assets/properties/aldebaran-15-quarto2.jpg";
+import aldebaranSalaAmpla from "@/assets/properties/aldebaran-16-sala-ampla.jpg";
+import aldebaranPiscinaVista from "@/assets/properties/aldebaran-17-piscina-vista.jpg";
+import aldebaranQuarto3 from "@/assets/properties/aldebaran-18-quarto3.jpg";
 
 export type PropertyPurpose = "comprar" | "alugar" | "minha-casa-minha-vida";
 export type PropertyType =
@@ -66,9 +74,17 @@ const aldebaranCasa: Property = {
   gallery: [
     aldebaranFachada,
     aldebaranPiscina,
+    aldebaranPiscinaVista,
+    aldebaranLateral,
     aldebaranSala,
+    aldebaranSalaAmpla,
+    aldebaranSalaTv,
+    aldebaranSalaJantar,
     aldebaranCozinha,
+    aldebaranSuite,
     aldebaranQuarto,
+    aldebaranQuarto2,
+    aldebaranQuarto3,
     aldebaranCloset,
     aldebaranSuiteBanheiro,
     aldebaranBanheiro,
