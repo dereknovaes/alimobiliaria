@@ -72,6 +72,17 @@ import aldebaran4Banheiro from "@/assets/properties/aldebaran4-08-banheiro.jpg";
 import aldebaran4Banheiro2 from "@/assets/properties/aldebaran4-09-banheiro2.jpg";
 import aldebaran4Mezanino from "@/assets/properties/aldebaran4-10-mezanino.jpg";
 
+import aldebaran5Aerea from "@/assets/properties/aldebaran5-01-aerea.jpg";
+import aldebaran5AereaRua from "@/assets/properties/aldebaran5-02-aerea-rua.jpg";
+import aldebaran5SalaMezanino from "@/assets/properties/aldebaran5-03-sala-mezanino.jpg";
+import aldebaran5SalaPiscina from "@/assets/properties/aldebaran5-04-sala-piscina.jpg";
+import aldebaran5SalaTijolo from "@/assets/properties/aldebaran5-05-sala-tijolo.jpg";
+import aldebaran5Cozinha from "@/assets/properties/aldebaran5-06-cozinha.jpg";
+import aldebaran5Mezanino from "@/assets/properties/aldebaran5-07-mezanino.jpg";
+import aldebaran5Quarto from "@/assets/properties/aldebaran5-08-quarto.jpg";
+import aldebaran5Quarto2 from "@/assets/properties/aldebaran5-09-quarto2.jpg";
+import aldebaran5Quarto3 from "@/assets/properties/aldebaran5-10-quarto3.jpg";
+
 export type PropertyPurpose = "comprar" | "alugar" | "minha-casa-minha-vida";
 export type PropertyType =
   | "Apartamento"
@@ -293,8 +304,53 @@ const aldebaranCasaLazer: Property = {
   ],
 };
 
+const aldebaranCasaNascente: Property = {
+  id: "aldebaran-casa-nascente",
+  image: aldebaran5Aerea,
+  gallery: [
+    aldebaran5Aerea,
+    aldebaran5AereaRua,
+    aldebaran5SalaMezanino,
+    aldebaran5SalaPiscina,
+    aldebaran5SalaTijolo,
+    aldebaran5Mezanino,
+    aldebaran5Cozinha,
+    aldebaran5Quarto,
+    aldebaran5Quarto2,
+    aldebaran5Quarto3,
+  ],
+  badge: "Nascente",
+  title: "Casa nascente no Condomínio Aldebaran",
+  price: "R$ 1.800.000",
+  priceValue: 1_800_000,
+  purpose: "comprar",
+  type: "Casa",
+  city: "Maceió",
+  neighborhood: "Aldebaran",
+  area: 500,
+  beds: 5,
+  baths: 5,
+  parking: 4,
+  description:
+    "Casa nascente com 500 m² de área construída em terreno de 550 m². 5 quartos sendo 3 suítes (master com banheira), escritório, ambientes integrados e área de lazer completa com piscina e churrasqueira.",
+  features: [
+    "500 m² de área construída",
+    "Terreno de 550 m²",
+    "5 quartos (3 suítes)",
+    "Suíte master com banheira",
+    "Escritório",
+    "Banheiro social",
+    "Sala de jantar e estar integradas",
+    "Cozinha principal + cozinha de apoio",
+    "Piscina",
+    "Churrasqueira com banheiro externo",
+    "Dependência com banheiro",
+    "Depósito com espaço para ferramentas",
+  ],
+};
+
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer];
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente];
 
 
 // === Imóveis recentes / Novidades ===
