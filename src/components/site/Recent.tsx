@@ -1,5 +1,5 @@
 import { PropertyCard } from "./PropertyCard";
-import { recentProperties } from "@/data/properties";
+import { featuredProperties } from "@/data/properties";
 import { usePropertySearch } from "@/hooks/usePropertySearch";
 import { Building2 } from "lucide-react";
 
