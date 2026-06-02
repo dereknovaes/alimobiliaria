@@ -111,6 +111,16 @@ import aldebaran8Suite from "@/assets/properties/aldebaran8-06-suite.jpg";
 import aldebaran8Quarto from "@/assets/properties/aldebaran8-07-quarto.jpg";
 import aldebaran8Banheiro from "@/assets/properties/aldebaran8-08-banheiro.jpg";
 import aldebaran8Banheiro2 from "@/assets/properties/aldebaran8-09-banheiro2.jpg";
+import aldebaran9FachadaPiscina from "@/assets/properties/aldebaran9-01-fachada-piscina.jpg";
+import aldebaran9Sala from "@/assets/properties/aldebaran9-02-sala.jpg";
+import aldebaran9SalaLareira from "@/assets/properties/aldebaran9-03-sala-lareira.jpg";
+import aldebaran9SalaJantar from "@/assets/properties/aldebaran9-04-sala-jantar.jpg";
+import aldebaran9Cozinha from "@/assets/properties/aldebaran9-05-cozinha.jpg";
+import aldebaran9Cozinha2 from "@/assets/properties/aldebaran9-06-cozinha2.jpg";
+import aldebaran9SuiteMaster from "@/assets/properties/aldebaran9-07-suite-master.jpg";
+import aldebaran9BanheiroMaster from "@/assets/properties/aldebaran9-08-banheiro-master.jpg";
+import aldebaran9Quarto from "@/assets/properties/aldebaran9-09-quarto.jpg";
+import aldebaran9Quarto2 from "@/assets/properties/aldebaran9-10-quarto2.jpg";
 
 export type PropertyPurpose = "comprar" | "alugar" | "minha-casa-minha-vida";
 export type PropertyType =
@@ -510,8 +520,49 @@ const aldebaranCasaVarandaL: Property = {
   ],
 };
 
+const aldebaranCasaGourmetPiscina: Property = {
+  id: "aldebaran-casa-gourmet-piscina",
+  image: aldebaran9FachadaPiscina,
+  gallery: [
+    aldebaran9FachadaPiscina,
+    aldebaran9Sala,
+    aldebaran9SalaLareira,
+    aldebaran9SalaJantar,
+    aldebaran9Cozinha,
+    aldebaran9Cozinha2,
+    aldebaran9SuiteMaster,
+    aldebaran9BanheiroMaster,
+    aldebaran9Quarto,
+    aldebaran9Quarto2,
+  ],
+  title: "Excelente casa com cozinha gourmet e piscina no Condomínio Aldebaran",
+  price: "R$ 1.460.000",
+  priceValue: 1_460_000,
+  purpose: "comprar",
+  type: "Casa",
+  city: "Maceió",
+  neighborhood: "Aldebaran",
+  area: 0,
+  beds: 4,
+  baths: 4,
+  parking: 2,
+  description:
+    "Excelente casa no Condomínio Aldebaran (em fase final de pintura para entrega) com 4 quartos sendo 3 suítes (1 master), sala de estar e jantar integradas, cozinha gourmet completa com planejados, lavabo, DCE completa, piscina e garagem coberta para 2 carros.",
+  features: [
+    "4 quartos, sendo 3 suítes (1 master)",
+    "Todos os quartos com guarda-roupas planejados",
+    "Sala de estar e jantar integradas",
+    "Cozinha gourmet completa com planejados",
+    "Lavabo",
+    "DCE completa",
+    "Piscina",
+    "Garagem coberta para 2 carros",
+    "Casa em fase final de pintura para entrega",
+  ],
+};
+
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL];
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL, aldebaranCasaGourmetPiscina];
 
 
 // === Imóveis recentes / Novidades ===
