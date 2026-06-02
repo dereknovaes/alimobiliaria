@@ -5,7 +5,8 @@ import { Building2 } from "lucide-react";
 
 export function Recent() {
   const { filter, active } = usePropertySearch();
-  const list = active ? filter(recentProperties) : recentProperties;
+  const base = featuredProperties.slice(-4);
+  const list = active ? filter(base) : base;
 
   return (
     <section id="recentes" className="py-28 px-6 lg:px-10 bg-secondary">
