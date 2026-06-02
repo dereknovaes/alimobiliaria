@@ -359,8 +359,51 @@ const aldebaranCasaNascente: Property = {
   ],
 };
 
+const aldebaranCasaModernaPiscina: Property = {
+  id: "aldebaran-casa-moderna-piscina",
+  image: aldebaran6Fachada,
+  gallery: [
+    aldebaran6Fachada,
+    aldebaran6SalaEscada,
+    aldebaran6Sala,
+    aldebaran6SalaVista,
+    aldebaran6CozinhaGourmet,
+    aldebaran6Cozinha,
+    aldebaran6SuiteMaster,
+    aldebaran6BanheiroSuite,
+    aldebaran6Banheiro,
+    aldebaran6Dce,
+  ],
+  title: "Casa moderna com piscina no Condomínio Aldebaran",
+  price: "R$ 2.650.000",
+  priceValue: 2_650_000,
+  purpose: "comprar",
+  type: "Casa",
+  city: "Maceió",
+  neighborhood: "Aldebaran",
+  area: 0,
+  beds: 4,
+  baths: 5,
+  parking: 4,
+  description:
+    "Casa moderna no Condomínio Aldebaran com 4 suítes (sendo 1 master), 3 salas, cozinha com ilha, área gourmet, piscina de arquitetura moderna e garagem subterrânea com acesso interno.",
+  features: [
+    "4 quartos (4 suítes, sendo 1 master)",
+    "3 salas com 1 lavabo",
+    "Cozinha com ilha",
+    "Terraços",
+    "Varandas",
+    "Piscina com arquitetura moderna",
+    "Área gourmet",
+    "DCE (Dependência Completa de Empregada)",
+    "Área de serviço",
+    "Garagem subterrânea com acesso interno à casa",
+    "Espaço extra no primeiro andar para construção de outra área",
+  ],
+};
+
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente];
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina];
 
 
 // === Imóveis recentes / Novidades ===
