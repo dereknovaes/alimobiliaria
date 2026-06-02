@@ -61,6 +61,17 @@ import aldebaran3SalaJantar from "@/assets/properties/aldebaran3-08-sala-jantar.
 import aldebaran3Cozinha from "@/assets/properties/aldebaran3-09-cozinha.jpg";
 import aldebaran3Copa from "@/assets/properties/aldebaran3-10-copa.jpg";
 
+import aldebaran4Fachada from "@/assets/properties/aldebaran4-01-fachada.jpg";
+import aldebaran4Piscina from "@/assets/properties/aldebaran4-02-piscina.jpg";
+import aldebaran4SalaGourmet from "@/assets/properties/aldebaran4-03-sala-gourmet.jpg";
+import aldebaran4SalaTv from "@/assets/properties/aldebaran4-04-sala-tv.jpg";
+import aldebaran4SuiteMaster from "@/assets/properties/aldebaran4-05-suite-master.jpg";
+import aldebaran4Quarto from "@/assets/properties/aldebaran4-06-quarto.jpg";
+import aldebaran4Quarto2 from "@/assets/properties/aldebaran4-07-quarto2.jpg";
+import aldebaran4Banheiro from "@/assets/properties/aldebaran4-08-banheiro.jpg";
+import aldebaran4Banheiro2 from "@/assets/properties/aldebaran4-09-banheiro2.jpg";
+import aldebaran4Mezanino from "@/assets/properties/aldebaran4-10-mezanino.jpg";
+
 export type PropertyPurpose = "comprar" | "alugar" | "minha-casa-minha-vida";
 export type PropertyType =
   | "Apartamento"
@@ -120,7 +131,7 @@ const aldebaranCasa: Property = {
     aldebaranBanheiro2,
     aldebaranLavabo,
   ],
-  badge: "Exclusivo",
+  badge: undefined,
   title: "Excelente casa no Condomínio Aldebaran",
   price: "R$ 1.400.000",
   priceValue: 1_400_000,
@@ -209,7 +220,7 @@ const aldebaranCasaLuxo: Property = {
     aldebaran3Cozinha,
     aldebaran3Copa,
   ],
-  badge: "Energia Solar",
+  badge: "Exclusivo",
   title: "Casa de luxo no Condomínio Aldebaran",
   price: "R$ 2.200.000",
   priceValue: 2_200_000,
@@ -240,8 +251,50 @@ const aldebaranCasaLuxo: Property = {
   ],
 };
 
+const aldebaranCasaLazer: Property = {
+  id: "aldebaran-casa-lazer-completo",
+  image: aldebaran4Fachada,
+  gallery: [
+    aldebaran4Fachada,
+    aldebaran4Piscina,
+    aldebaran4SalaGourmet,
+    aldebaran4SalaTv,
+    aldebaran4SuiteMaster,
+    aldebaran4Quarto,
+    aldebaran4Quarto2,
+    aldebaran4Banheiro,
+    aldebaran4Banheiro2,
+    aldebaran4Mezanino,
+  ],
+  title: "Casa com lazer completo no Condomínio Aldebaran",
+  price: "R$ 2.300.000",
+  priceValue: 2_300_000,
+  purpose: "comprar",
+  type: "Casa",
+  city: "Maceió",
+  neighborhood: "Aldebaran",
+  area: 360,
+  beds: 4,
+  baths: 5,
+  parking: 4,
+  description:
+    "Excelente casa no Condomínio Aldebaran com 360 m² de área construída em terreno de 560 m². 4 suítes, sala em dois ambientes, varanda ampla e área de lazer completa com piscina, churrasqueira e espaço gourmet.",
+  features: [
+    "Área total: 560 m²",
+    "Área construída: 360 m²",
+    "4 quartos (4 suítes)",
+    "Lavabo",
+    "Sala em dois ambientes (estar e jantar)",
+    "Varanda ampla",
+    "Cozinha com área de serviço e despensa",
+    "Quarto de secretária completo com banheiro",
+    "Área de lazer completa: piscina, churrasqueira e espaço gourmet",
+    "Garagem para até 4 carros",
+  ],
+};
+
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo];
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer];
 
 
 // === Imóveis recentes / Novidades ===
