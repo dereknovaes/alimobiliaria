@@ -468,8 +468,50 @@ const aldebaranCasaPiscinaCharme: Property = {
   ],
 };
 
+const aldebaranCasaVarandaL: Property = {
+  id: "aldebaran-casa-varanda-l",
+  image: aldebaran8Fachada,
+  gallery: [
+    aldebaran8Fachada,
+    aldebaran8Piscina,
+    aldebaran8Sala,
+    aldebaran8SalaJantar,
+    aldebaran8Mezanino,
+    aldebaran8Suite,
+    aldebaran8Quarto,
+    aldebaran8Banheiro,
+    aldebaran8Banheiro2,
+  ],
+  title: "Casa com varanda em L e piscina no Condomínio Aldebaran",
+  price: "R$ 1.400.000",
+  priceValue: 1_400_000,
+  purpose: "comprar",
+  type: "Casa",
+  city: "Maceió",
+  neighborhood: "Aldebaran",
+  area: 325,
+  beds: 4,
+  baths: 3,
+  parking: 4,
+  description:
+    "Casa no Condomínio Aldebaran com 325 m² de área construída em terreno de 544 m². 1 suíte e 1 quarto social no piso superior com mezanino, mais 2 quartos sociais no piso inferior. Sala ampla com 3 ambientes, varanda em L, área de lazer com piscina e churrasqueira e garagem para até 4 carros.",
+  features: [
+    "Terreno de 544 m²",
+    "Área construída de 325 m²",
+    "Parte superior: 1 suíte, 1 quarto social, 1 banheiro social e mezanino",
+    "Parte inferior: 2 quartos sociais e 1 banheiro social",
+    "Sala ampla com 3 ambientes",
+    "Varanda em L",
+    "Cozinha",
+    "Área de serviço",
+    "Garagem para até 4 carros",
+    "Piscina",
+    "Espaço com churrasqueira",
+  ],
+};
+
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme];
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL];
 
 
 // === Imóveis recentes / Novidades ===
