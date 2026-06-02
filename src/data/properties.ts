@@ -82,6 +82,16 @@ import aldebaran5Mezanino from "@/assets/properties/aldebaran5-07-mezanino.jpg";
 import aldebaran5Quarto from "@/assets/properties/aldebaran5-08-quarto.jpg";
 import aldebaran5Quarto2 from "@/assets/properties/aldebaran5-09-quarto2.jpg";
 import aldebaran5Quarto3 from "@/assets/properties/aldebaran5-10-quarto3.jpg";
+import aldebaran6Fachada from "@/assets/properties/aldebaran6-01-fachada.jpg";
+import aldebaran6SalaEscada from "@/assets/properties/aldebaran6-02-sala-escada.jpg";
+import aldebaran6Sala from "@/assets/properties/aldebaran6-03-sala.jpg";
+import aldebaran6SalaVista from "@/assets/properties/aldebaran6-04-sala-vista.jpg";
+import aldebaran6CozinhaGourmet from "@/assets/properties/aldebaran6-05-cozinha-gourmet.jpg";
+import aldebaran6Cozinha from "@/assets/properties/aldebaran6-06-cozinha.jpg";
+import aldebaran6SuiteMaster from "@/assets/properties/aldebaran6-07-suite-master.jpg";
+import aldebaran6BanheiroSuite from "@/assets/properties/aldebaran6-08-banheiro-suite.jpg";
+import aldebaran6Banheiro from "@/assets/properties/aldebaran6-09-banheiro.jpg";
+import aldebaran6Dce from "@/assets/properties/aldebaran6-10-dce.jpg";
 
 export type PropertyPurpose = "comprar" | "alugar" | "minha-casa-minha-vida";
 export type PropertyType =
@@ -349,8 +359,51 @@ const aldebaranCasaNascente: Property = {
   ],
 };
 
+const aldebaranCasaModernaPiscina: Property = {
+  id: "aldebaran-casa-moderna-piscina",
+  image: aldebaran6Fachada,
+  gallery: [
+    aldebaran6Fachada,
+    aldebaran6SalaEscada,
+    aldebaran6Sala,
+    aldebaran6SalaVista,
+    aldebaran6CozinhaGourmet,
+    aldebaran6Cozinha,
+    aldebaran6SuiteMaster,
+    aldebaran6BanheiroSuite,
+    aldebaran6Banheiro,
+    aldebaran6Dce,
+  ],
+  title: "Casa moderna com piscina no Condomínio Aldebaran",
+  price: "R$ 2.650.000",
+  priceValue: 2_650_000,
+  purpose: "comprar",
+  type: "Casa",
+  city: "Maceió",
+  neighborhood: "Aldebaran",
+  area: 0,
+  beds: 4,
+  baths: 5,
+  parking: 4,
+  description:
+    "Casa moderna no Condomínio Aldebaran com 4 suítes (sendo 1 master), 3 salas, cozinha com ilha, área gourmet, piscina de arquitetura moderna e garagem subterrânea com acesso interno.",
+  features: [
+    "4 quartos (4 suítes, sendo 1 master)",
+    "3 salas com 1 lavabo",
+    "Cozinha com ilha",
+    "Terraços",
+    "Varandas",
+    "Piscina com arquitetura moderna",
+    "Área gourmet",
+    "DCE (Dependência Completa de Empregada)",
+    "Área de serviço",
+    "Garagem subterrânea com acesso interno à casa",
+    "Espaço extra no primeiro andar para construção de outra área",
+  ],
+};
+
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente];
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina];
 
 
 // === Imóveis recentes / Novidades ===
