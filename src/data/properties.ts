@@ -92,6 +92,16 @@ import aldebaran6SuiteMaster from "@/assets/properties/aldebaran6-07-suite-maste
 import aldebaran6BanheiroSuite from "@/assets/properties/aldebaran6-08-banheiro-suite.jpg";
 import aldebaran6Banheiro from "@/assets/properties/aldebaran6-09-banheiro.jpg";
 import aldebaran6Dce from "@/assets/properties/aldebaran6-10-dce.jpg";
+import aldebaran7Fachada from "@/assets/properties/aldebaran7-01-fachada.jpg";
+import aldebaran7Piscina from "@/assets/properties/aldebaran7-02-piscina.jpg";
+import aldebaran7AreaChurrasqueira from "@/assets/properties/aldebaran7-03-area-churrasqueira.jpg";
+import aldebaran7SalaEstar from "@/assets/properties/aldebaran7-04-sala-estar.jpg";
+import aldebaran7SalaJantar from "@/assets/properties/aldebaran7-05-sala-jantar.jpg";
+import aldebaran7SalaJantar2 from "@/assets/properties/aldebaran7-06-sala-jantar2.jpg";
+import aldebaran7Cozinha from "@/assets/properties/aldebaran7-07-cozinha.jpg";
+import aldebaran7Mezanino from "@/assets/properties/aldebaran7-08-mezanino.jpg";
+import aldebaran7Suite from "@/assets/properties/aldebaran7-09-suite.jpg";
+import aldebaran7Banheiro from "@/assets/properties/aldebaran7-10-banheiro.jpg";
 
 export type PropertyPurpose = "comprar" | "alugar" | "minha-casa-minha-vida";
 export type PropertyType =
@@ -403,7 +413,54 @@ const aldebaranCasaModernaPiscina: Property = {
 };
 
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina];
+const aldebaranCasaPiscinaCharme: Property = {
+  id: "aldebaran-casa-piscina-charme",
+  image: aldebaran7Fachada,
+  gallery: [
+    aldebaran7Fachada,
+    aldebaran7Piscina,
+    aldebaran7AreaChurrasqueira,
+    aldebaran7SalaEstar,
+    aldebaran7SalaJantar,
+    aldebaran7SalaJantar2,
+    aldebaran7Cozinha,
+    aldebaran7Mezanino,
+    aldebaran7Suite,
+    aldebaran7Banheiro,
+  ],
+  title: "Casa com piscina e área de lazer no Condomínio Aldebaran",
+  price: "R$ 1.420.000",
+  priceValue: 1_420_000,
+  purpose: "comprar",
+  type: "Casa",
+  city: "Maceió",
+  neighborhood: "Aldebaran",
+  area: 380,
+  beds: 4,
+  baths: 4,
+  parking: 2,
+  description:
+    "Casa no Condomínio Aldebaran com cerca de 380 m² de área construída em terreno de 480 m². 4 quartos (sendo 1 suíte master) com armários planejados e ar-condicionado, 2 salas de estar, sala de jantar, cozinha com armários novos, piscina e área de apoio com churrasqueira.",
+  features: [
+    "Aproximadamente 380 m² de área construída",
+    "Terreno de 480 m²",
+    "4 quartos (todos com armários planejados)",
+    "1 suíte master",
+    "Ar-condicionado em todos os quartos",
+    "2 salas de estar",
+    "1 sala de jantar",
+    "Cozinha com armários novos",
+    "Dispensa",
+    "Dependência completa com banheiro",
+    "Garagem com depósito",
+    "Varandas amplas",
+    "Piscina",
+    "Área de apoio com churrasqueira",
+  ],
+};
+
+// === Imóveis em destaque ===
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme];
 
 
 // === Imóveis recentes / Novidades ===
