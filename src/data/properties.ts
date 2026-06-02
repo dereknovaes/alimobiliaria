@@ -304,8 +304,53 @@ const aldebaranCasaLazer: Property = {
   ],
 };
 
+const aldebaranCasaNascente: Property = {
+  id: "aldebaran-casa-nascente",
+  image: aldebaran5Aerea,
+  gallery: [
+    aldebaran5Aerea,
+    aldebaran5AereaRua,
+    aldebaran5SalaMezanino,
+    aldebaran5SalaPiscina,
+    aldebaran5SalaTijolo,
+    aldebaran5Mezanino,
+    aldebaran5Cozinha,
+    aldebaran5Quarto,
+    aldebaran5Quarto2,
+    aldebaran5Quarto3,
+  ],
+  badge: "Nascente",
+  title: "Casa nascente no Condomínio Aldebaran",
+  price: "R$ 1.800.000",
+  priceValue: 1_800_000,
+  purpose: "comprar",
+  type: "Casa",
+  city: "Maceió",
+  neighborhood: "Aldebaran",
+  area: 500,
+  beds: 5,
+  baths: 5,
+  parking: 4,
+  description:
+    "Casa nascente com 500 m² de área construída em terreno de 550 m². 5 quartos sendo 3 suítes (master com banheira), escritório, ambientes integrados e área de lazer completa com piscina e churrasqueira.",
+  features: [
+    "500 m² de área construída",
+    "Terreno de 550 m²",
+    "5 quartos (3 suítes)",
+    "Suíte master com banheira",
+    "Escritório",
+    "Banheiro social",
+    "Sala de jantar e estar integradas",
+    "Cozinha principal + cozinha de apoio",
+    "Piscina",
+    "Churrasqueira com banheiro externo",
+    "Dependência com banheiro",
+    "Depósito com espaço para ferramentas",
+  ],
+};
+
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer];
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente];
 
 
 // === Imóveis recentes / Novidades ===
