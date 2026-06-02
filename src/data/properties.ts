@@ -520,8 +520,49 @@ const aldebaranCasaVarandaL: Property = {
   ],
 };
 
+const aldebaranCasaGourmetPiscina: Property = {
+  id: "aldebaran-casa-gourmet-piscina",
+  image: aldebaran9FachadaPiscina,
+  gallery: [
+    aldebaran9FachadaPiscina,
+    aldebaran9Sala,
+    aldebaran9SalaLareira,
+    aldebaran9SalaJantar,
+    aldebaran9Cozinha,
+    aldebaran9Cozinha2,
+    aldebaran9SuiteMaster,
+    aldebaran9BanheiroMaster,
+    aldebaran9Quarto,
+    aldebaran9Quarto2,
+  ],
+  title: "Excelente casa com cozinha gourmet e piscina no Condomínio Aldebaran",
+  price: "R$ 1.460.000",
+  priceValue: 1_460_000,
+  purpose: "comprar",
+  type: "Casa",
+  city: "Maceió",
+  neighborhood: "Aldebaran",
+  area: 0,
+  beds: 4,
+  baths: 4,
+  parking: 2,
+  description:
+    "Excelente casa no Condomínio Aldebaran (em fase final de pintura para entrega) com 4 quartos sendo 3 suítes (1 master), sala de estar e jantar integradas, cozinha gourmet completa com planejados, lavabo, DCE completa, piscina e garagem coberta para 2 carros.",
+  features: [
+    "4 quartos, sendo 3 suítes (1 master)",
+    "Todos os quartos com guarda-roupas planejados",
+    "Sala de estar e jantar integradas",
+    "Cozinha gourmet completa com planejados",
+    "Lavabo",
+    "DCE completa",
+    "Piscina",
+    "Garagem coberta para 2 carros",
+    "Casa em fase final de pintura para entrega",
+  ],
+};
+
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL];
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL, aldebaranCasaGourmetPiscina];
 
 
 // === Imóveis recentes / Novidades ===
