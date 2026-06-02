@@ -220,7 +220,7 @@ const aldebaranCasaLuxo: Property = {
     aldebaran3Cozinha,
     aldebaran3Copa,
   ],
-  badge: "Energia Solar",
+  badge: "Exclusivo",
   title: "Casa de luxo no Condomínio Aldebaran",
   price: "R$ 2.200.000",
   priceValue: 2_200_000,
