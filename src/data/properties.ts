@@ -251,8 +251,50 @@ const aldebaranCasaLuxo: Property = {
   ],
 };
 
+const aldebaranCasaLazer: Property = {
+  id: "aldebaran-casa-lazer-completo",
+  image: aldebaran4Fachada,
+  gallery: [
+    aldebaran4Fachada,
+    aldebaran4Piscina,
+    aldebaran4SalaGourmet,
+    aldebaran4SalaTv,
+    aldebaran4SuiteMaster,
+    aldebaran4Quarto,
+    aldebaran4Quarto2,
+    aldebaran4Banheiro,
+    aldebaran4Banheiro2,
+    aldebaran4Mezanino,
+  ],
+  title: "Casa com lazer completo no Condomínio Aldebaran",
+  price: "R$ 2.300.000",
+  priceValue: 2_300_000,
+  purpose: "comprar",
+  type: "Casa",
+  city: "Maceió",
+  neighborhood: "Aldebaran",
+  area: 360,
+  beds: 4,
+  baths: 5,
+  parking: 4,
+  description:
+    "Excelente casa no Condomínio Aldebaran com 360 m² de área construída em terreno de 560 m². 4 suítes, sala em dois ambientes, varanda ampla e área de lazer completa com piscina, churrasqueira e espaço gourmet.",
+  features: [
+    "Área total: 560 m²",
+    "Área construída: 360 m²",
+    "4 quartos (4 suítes)",
+    "Lavabo",
+    "Sala em dois ambientes (estar e jantar)",
+    "Varanda ampla",
+    "Cozinha com área de serviço e despensa",
+    "Quarto de secretária completo com banheiro",
+    "Área de lazer completa: piscina, churrasqueira e espaço gourmet",
+    "Garagem para até 4 carros",
+  ],
+};
+
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo];
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer];
 
 
 // === Imóveis recentes / Novidades ===
