@@ -53,7 +53,7 @@ export function SearchBar() {
             <Field label="Cidade">
               <input
                 className={ctrl + " placeholder:text-muted-foreground"}
-                placeholder="Ex: São Paulo"
+                placeholder="Ex: Maceió"
                 value={filters.city}
                 onChange={(e) => setFilter("city", e.target.value)}
               />
@@ -61,7 +61,7 @@ export function SearchBar() {
             <Field label="Bairro">
               <input
                 className={ctrl + " placeholder:text-muted-foreground"}
-                placeholder="Ex: Jardins"
+                placeholder="Ex: Ponta Verde"
                 value={filters.neighborhood}
                 onChange={(e) => setFilter("neighborhood", e.target.value)}
               />
