@@ -152,6 +152,17 @@ import aldebaran12Quarto from "@/assets/properties/aldebaran12-08-quarto.jpg.ass
 import aldebaran12Escada from "@/assets/properties/aldebaran12-09-escada.jpg.asset.json";
 import aldebaran12Lavabo from "@/assets/properties/aldebaran12-10-lavabo.jpg.asset.json";
 
+import casa13Sala from "@/assets/properties/casa13-01-sala.jpg.asset.json";
+import casa13Varanda from "@/assets/properties/casa13-02-varanda.jpg.asset.json";
+import casa13Churrasqueira from "@/assets/properties/casa13-03-churrasqueira.jpg.asset.json";
+import casa13Cozinha from "@/assets/properties/casa13-04-cozinha.jpg.asset.json";
+import casa13Suite from "@/assets/properties/casa13-05-suite.jpg.asset.json";
+import casa13Quarto from "@/assets/properties/casa13-06-quarto.jpg.asset.json";
+import casa13Quarto2 from "@/assets/properties/casa13-07-quarto2.jpg.asset.json";
+import casa13Quarto3 from "@/assets/properties/casa13-08-quarto3.jpg.asset.json";
+import casa13Banheiro from "@/assets/properties/casa13-09-banheiro.jpg.asset.json";
+
+
 export type PropertyPurpose = "comprar" | "alugar" | "minha-casa-minha-vida";
 export type PropertyType =
   | "Apartamento"
