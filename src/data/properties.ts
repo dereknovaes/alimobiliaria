@@ -131,6 +131,16 @@ import comercial10MezaninoVista from "@/assets/properties/comercial10-06-mezanin
 import comercial10CopaArea from "@/assets/properties/comercial10-07-copa-area.jpg.asset.json";
 import comercial10Escada from "@/assets/properties/comercial10-08-escada.jpg.asset.json";
 
+import casa11Varanda from "@/assets/properties/casa11-01-varanda.jpg.asset.json";
+import casa11Piscina from "@/assets/properties/casa11-02-piscina.jpg.asset.json";
+import casa11AreaExterna from "@/assets/properties/casa11-03-area-externa.jpg.asset.json";
+import casa11Sala from "@/assets/properties/casa11-04-sala.jpg.asset.json";
+import casa11Suite from "@/assets/properties/casa11-05-suite.jpg.asset.json";
+import casa11Quarto from "@/assets/properties/casa11-06-quarto.jpg.asset.json";
+import casa11Quarto2 from "@/assets/properties/casa11-07-quarto2.jpg.asset.json";
+import casa11Banheiro from "@/assets/properties/casa11-08-banheiro.jpg.asset.json";
+import casa11Deposito from "@/assets/properties/casa11-09-deposito.jpg.asset.json";
+
 export type PropertyPurpose = "comprar" | "alugar" | "minha-casa-minha-vida";
 export type PropertyType =
   | "Apartamento"
