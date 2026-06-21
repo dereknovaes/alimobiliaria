@@ -122,6 +122,15 @@ import aldebaran9BanheiroMaster from "@/assets/properties/aldebaran9-08-banheiro
 import aldebaran9Quarto from "@/assets/properties/aldebaran9-09-quarto.jpg";
 import aldebaran9Quarto2 from "@/assets/properties/aldebaran9-10-quarto2.jpg";
 
+import comercial10Recepcao from "@/assets/properties/comercial10-01-recepcao.jpg.asset.json";
+import comercial10Mezanino from "@/assets/properties/comercial10-02-mezanino.jpg.asset.json";
+import comercial10Mezanino2 from "@/assets/properties/comercial10-03-mezanino2.jpg.asset.json";
+import comercial10Sala from "@/assets/properties/comercial10-04-sala.jpg.asset.json";
+import comercial10Copa from "@/assets/properties/comercial10-05-copa.jpg.asset.json";
+import comercial10MezaninoVista from "@/assets/properties/comercial10-06-mezanino-vista.jpg.asset.json";
+import comercial10CopaArea from "@/assets/properties/comercial10-07-copa-area.jpg.asset.json";
+import comercial10Escada from "@/assets/properties/comercial10-08-escada.jpg.asset.json";
+
 export type PropertyPurpose = "comprar" | "alugar" | "minha-casa-minha-vida";
 export type PropertyType =
   | "Apartamento"
@@ -561,8 +570,44 @@ const aldebaranCasaGourmetPiscina: Property = {
   ],
 };
 
+const comercialSebastiaoGranjeiro: Property = {
+  id: "comercial-sebastiao-granjeiro",
+  image: comercial10Recepcao.url,
+  gallery: [
+    comercial10Recepcao.url,
+    comercial10Sala.url,
+    comercial10Mezanino.url,
+    comercial10Mezanino2.url,
+    comercial10MezaninoVista.url,
+    comercial10Copa.url,
+    comercial10CopaArea.url,
+    comercial10Escada.url,
+  ],
+  title: "Ponto comercial na Rua Sebastião Granjeiro — Maceió",
+  price: "R$ 3.500/mês",
+  priceValue: 3_500,
+  purpose: "alugar",
+  type: "Comercial",
+  city: "Maceió",
+  neighborhood: "Centro",
+  area: 0,
+  beds: 0,
+  baths: 2,
+  parking: 0,
+  description:
+    "Ponto comercial para aluguel localizado na Rua Sebastião Granjeiro, em Maceió. Conta com recepção, sala de reuniões em vidro, mezanino com salão amplo e banheiro, copa e sala para área comum integradas.",
+  features: [
+    "Recepção",
+    "Sala de reuniões em vidro",
+    "Mezanino com salão amplo",
+    "Banheiro no mezanino",
+    "Copa integrada à área comum",
+    "Localização na Rua Sebastião Granjeiro, Maceió",
+  ],
+};
+
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL, aldebaranCasaGourmetPiscina];
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL, aldebaranCasaGourmetPiscina, comercialSebastiaoGranjeiro];
 
 
 // === Imóveis recentes / Novidades ===
