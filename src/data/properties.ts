@@ -141,6 +141,17 @@ import casa11Quarto2 from "@/assets/properties/casa11-07-quarto2.jpg.asset.json"
 import casa11Banheiro from "@/assets/properties/casa11-08-banheiro.jpg.asset.json";
 import casa11Deposito from "@/assets/properties/casa11-09-deposito.jpg.asset.json";
 
+import aldebaran12SalaJantar from "@/assets/properties/aldebaran12-01-sala-jantar.jpg.asset.json";
+import aldebaran12SalaEstar from "@/assets/properties/aldebaran12-02-sala-estar.jpg.asset.json";
+import aldebaran12Cinema from "@/assets/properties/aldebaran12-03-cinema.jpg.asset.json";
+import aldebaran12Escritorio from "@/assets/properties/aldebaran12-04-escritorio.jpg.asset.json";
+import aldebaran12SuiteMaster from "@/assets/properties/aldebaran12-05-suite-master.jpg.asset.json";
+import aldebaran12BanheiroMaster from "@/assets/properties/aldebaran12-06-banheiro-master.jpg.asset.json";
+import aldebaran12Banheiro from "@/assets/properties/aldebaran12-07-banheiro.jpg.asset.json";
+import aldebaran12Quarto from "@/assets/properties/aldebaran12-08-quarto.jpg.asset.json";
+import aldebaran12Escada from "@/assets/properties/aldebaran12-09-escada.jpg.asset.json";
+import aldebaran12Lavabo from "@/assets/properties/aldebaran12-10-lavabo.jpg.asset.json";
+
 export type PropertyPurpose = "comprar" | "alugar" | "minha-casa-minha-vida";
 export type PropertyType =
   | "Apartamento"
@@ -658,8 +669,49 @@ const casaPiscinaChurrasqueira: Property = {
   ],
 };
 
+const aldebaranCasaCinemaEscritorio: Property = {
+  id: "aldebaran-casa-cinema-escritorio",
+  image: aldebaran12SalaJantar.url,
+  gallery: [
+    aldebaran12SalaJantar.url,
+    aldebaran12SalaEstar.url,
+    aldebaran12Cinema.url,
+    aldebaran12Escritorio.url,
+    aldebaran12SuiteMaster.url,
+    aldebaran12BanheiroMaster.url,
+    aldebaran12Banheiro.url,
+    aldebaran12Quarto.url,
+    aldebaran12Escada.url,
+    aldebaran12Lavabo.url,
+  ],
+  title: "Belíssima casa no Condomínio Aldebaran — 4 suítes, cinema e escritório",
+  price: "R$ 3.000.000,00",
+  priceValue: 3_000_000,
+  purpose: "comprar",
+  type: "Casa",
+  city: "Maceió",
+  neighborhood: "Condomínio Aldebaran",
+  area: 0,
+  beds: 4,
+  baths: 5,
+  parking: 0,
+  description:
+    "Belíssima casa no Condomínio Aldebaran com 4 quartos, todos suítes, sendo a master com closet e varanda. Sala de estar e jantar integradas, sala de cinema, escritório, piscina, churrasqueira e DCE. Completa de móveis fixos planejados.",
+  features: [
+    "4 suítes",
+    "Suíte master com closet e varanda",
+    "Sala de estar e jantar integradas",
+    "Sala de cinema",
+    "Escritório",
+    "Piscina",
+    "Churrasqueira",
+    "DCE",
+    "Móveis fixos planejados",
+  ],
+};
+
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL, aldebaranCasaGourmetPiscina, comercialSebastiaoGranjeiro, casaPiscinaChurrasqueira];
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL, aldebaranCasaGourmetPiscina, comercialSebastiaoGranjeiro, casaPiscinaChurrasqueira, aldebaranCasaCinemaEscritorio];
 
 
 // === Imóveis recentes / Novidades ===
