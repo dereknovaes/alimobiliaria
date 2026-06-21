@@ -669,8 +669,49 @@ const casaPiscinaChurrasqueira: Property = {
   ],
 };
 
+const aldebaranCasaCinemaEscritorio: Property = {
+  id: "aldebaran-casa-cinema-escritorio",
+  image: aldebaran12SalaJantar.url,
+  gallery: [
+    aldebaran12SalaJantar.url,
+    aldebaran12SalaEstar.url,
+    aldebaran12Cinema.url,
+    aldebaran12Escritorio.url,
+    aldebaran12SuiteMaster.url,
+    aldebaran12BanheiroMaster.url,
+    aldebaran12Banheiro.url,
+    aldebaran12Quarto.url,
+    aldebaran12Escada.url,
+    aldebaran12Lavabo.url,
+  ],
+  title: "Belíssima casa no Condomínio Aldebaran — 4 suítes, cinema e escritório",
+  price: "R$ 3.000.000,00",
+  priceValue: 3_000_000,
+  purpose: "comprar",
+  type: "Casa",
+  city: "Maceió",
+  neighborhood: "Condomínio Aldebaran",
+  area: 0,
+  beds: 4,
+  baths: 5,
+  parking: 0,
+  description:
+    "Belíssima casa no Condomínio Aldebaran com 4 quartos, todos suítes, sendo a master com closet e varanda. Sala de estar e jantar integradas, sala de cinema, escritório, piscina, churrasqueira e DCE. Completa de móveis fixos planejados.",
+  features: [
+    "4 suítes",
+    "Suíte master com closet e varanda",
+    "Sala de estar e jantar integradas",
+    "Sala de cinema",
+    "Escritório",
+    "Piscina",
+    "Churrasqueira",
+    "DCE",
+    "Móveis fixos planejados",
+  ],
+};
+
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL, aldebaranCasaGourmetPiscina, comercialSebastiaoGranjeiro, casaPiscinaChurrasqueira];
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL, aldebaranCasaGourmetPiscina, comercialSebastiaoGranjeiro, casaPiscinaChurrasqueira, aldebaranCasaCinemaEscritorio];
 
 
 // === Imóveis recentes / Novidades ===
