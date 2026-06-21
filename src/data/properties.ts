@@ -616,8 +616,50 @@ const comercialSebastiaoGranjeiro: Property = {
   ],
 };
 
+const casaPiscinaChurrasqueira: Property = {
+  id: "casa-piscina-churrasqueira-5q",
+  image: casa11Varanda.url,
+  gallery: [
+    casa11Varanda.url,
+    casa11Piscina.url,
+    casa11AreaExterna.url,
+    casa11Sala.url,
+    casa11Suite.url,
+    casa11Quarto.url,
+    casa11Quarto2.url,
+    casa11Banheiro.url,
+    casa11Deposito.url,
+  ],
+  title: "Casa ampla com piscina, churrasqueira e 5 quartos",
+  price: "R$ 700.000,00",
+  priceValue: 700_000,
+  purpose: "comprar",
+  type: "Casa",
+  city: "Maceió",
+  neighborhood: "",
+  area: 0,
+  beds: 5,
+  baths: 3,
+  parking: 3,
+  description:
+    "Casa espaçosa com 5 quartos (sendo 3 suítes), duas salas amplas, cozinha ampla com depósito, área gourmet com churrasqueira e pia, piscina, lavanderia, depósito e garagem ampla com vaga coberta para três carros. Conta ainda com 16 mil litros de reserva de água (10 mil na cisterna e 6 mil nas caixas).",
+  features: [
+    "5 quartos (3 suítes)",
+    "1 banheiro social",
+    "2 lavabos",
+    "Cozinha ampla com depósito",
+    "Duas salas amplas",
+    "Piscina",
+    "Área ampla com churrasqueira e pia",
+    "Lavanderia",
+    "Depósito",
+    "Garagem ampla — 3 vagas (cobertas)",
+    "Reserva de 16 mil litros de água (cisterna 10 mil + caixas 6 mil)",
+  ],
+};
+
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL, aldebaranCasaGourmetPiscina, comercialSebastiaoGranjeiro];
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL, aldebaranCasaGourmetPiscina, comercialSebastiaoGranjeiro, casaPiscinaChurrasqueira];
 
 
 // === Imóveis recentes / Novidades ===
