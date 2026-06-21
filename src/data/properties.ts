@@ -570,8 +570,44 @@ const aldebaranCasaGourmetPiscina: Property = {
   ],
 };
 
+const comercialSebastiaoGranjeiro: Property = {
+  id: "comercial-sebastiao-granjeiro",
+  image: comercial10Recepcao.url,
+  gallery: [
+    comercial10Recepcao.url,
+    comercial10Sala.url,
+    comercial10Mezanino.url,
+    comercial10Mezanino2.url,
+    comercial10MezaninoVista.url,
+    comercial10Copa.url,
+    comercial10CopaArea.url,
+    comercial10Escada.url,
+  ],
+  title: "Ponto comercial na Rua Sebastião Granjeiro — Maceió",
+  price: "R$ 3.500/mês",
+  priceValue: 3_500,
+  purpose: "alugar",
+  type: "Comercial",
+  city: "Maceió",
+  neighborhood: "Centro",
+  area: 0,
+  beds: 0,
+  baths: 2,
+  parking: 0,
+  description:
+    "Ponto comercial para aluguel localizado na Rua Sebastião Granjeiro, em Maceió. Conta com recepção, sala de reuniões em vidro, mezanino com salão amplo e banheiro, copa e sala para área comum integradas.",
+  features: [
+    "Recepção",
+    "Sala de reuniões em vidro",
+    "Mezanino com salão amplo",
+    "Banheiro no mezanino",
+    "Copa integrada à área comum",
+    "Localização na Rua Sebastião Granjeiro, Maceió",
+  ],
+};
+
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL, aldebaranCasaGourmetPiscina];
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL, aldebaranCasaGourmetPiscina, comercialSebastiaoGranjeiro];
 
 
 // === Imóveis recentes / Novidades ===
