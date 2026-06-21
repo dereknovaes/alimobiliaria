@@ -722,7 +722,44 @@ const aldebaranCasaCinemaEscritorio: Property = {
 };
 
 // === Imóveis em destaque ===
-export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL, aldebaranCasaGourmetPiscina, comercialSebastiaoGranjeiro, casaPiscinaChurrasqueira, aldebaranCasaCinemaEscritorio];
+const casaPraiaBarraSaoMiguel: Property = {
+  id: "casa-praia-barra-sao-miguel",
+  image: casa13Sala.url,
+  gallery: [
+    casa13Sala.url,
+    casa13Varanda.url,
+    casa13Churrasqueira.url,
+    casa13Cozinha.url,
+    casa13Suite.url,
+    casa13Quarto.url,
+    casa13Quarto2.url,
+    casa13Quarto3.url,
+    casa13Banheiro.url,
+  ],
+  title: "Excelente casa de praia na Barra de São Miguel — 5 quartos com piscina",
+  price: "Sob consulta",
+  priceValue: 0,
+  purpose: "comprar",
+  type: "Casa",
+  city: "Barra de São Miguel",
+  neighborhood: "",
+  area: 0,
+  beds: 5,
+  baths: 4,
+  parking: 0,
+  description:
+    "Excelente casa de praia na Barra de São Miguel com 5 quartos, sendo 3 suítes. Sala de estar e jantar integradas, cozinha integrada à sala, banheiro social, piscina e churrasqueira. Preço sob consulta.",
+  features: [
+    "5 quartos (3 suítes)",
+    "Sala de estar e jantar integradas",
+    "Cozinha integrada à sala",
+    "Banheiro social",
+    "Piscina",
+    "Churrasqueira",
+  ],
+};
+
+export const featuredProperties: Property[] = [aldebaranCasa, aldebaranCasaModerna, aldebaranCasaLuxo, aldebaranCasaLazer, aldebaranCasaNascente, aldebaranCasaModernaPiscina, aldebaranCasaPiscinaCharme, aldebaranCasaVarandaL, aldebaranCasaGourmetPiscina, comercialSebastiaoGranjeiro, casaPiscinaChurrasqueira, aldebaranCasaCinemaEscritorio, casaPraiaBarraSaoMiguel];
 
 
 // === Imóveis recentes / Novidades ===
